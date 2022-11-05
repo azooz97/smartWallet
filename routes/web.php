@@ -28,6 +28,6 @@ use Illuminate\Support\Facades\Route;
 //});
 
 Route::get('/', function () {
-//  return view('components.home');
-    return "Hello world";
+  return view('components.home');
+//    return "Hello world";
 });
