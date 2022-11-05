@@ -23,7 +23,7 @@
     <!-- menu main -->
     <x-MainMenu.MainMenu></x-MainMenu.MainMenu>
     <div class="backdrop"></div>
-    
+
     <!-- Begin page content -->
     <main class="flex-shrink-0 main has-footer">
         <!-- Fixed navbar -->
@@ -312,7 +312,7 @@
                 </div>
             </div>
 
-            <!-- Gift cards --> 
+            <!-- Gift cards -->
             <div class="container mb-4">
                 <div class="card border-0 mb-3">
                     <div class="card-body">
@@ -578,4 +578,4 @@
             <label for="templatecolor14" class="bg-gray" data-title="gray"></label>
         </div>
     </div>
-</x-layout>  
+</x-layout>
