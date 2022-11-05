@@ -15,17 +15,19 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
 // Route::get('/', [WalletController::class, 'list']);
-Route::post('/add', function () {
-  // dd(request()->request);
-  $attributes = request()->validate([
-    'name' => 'required',
-    'amount' => 'required'
-  ]);
-  Wallet::create($attributes);
-  return redirect("/");
-});
+//Route::post('/add', function () {
+//  // dd(request()->request);
+//  $attributes = request()->validate([
+//    'name' => 'required',
+//    'amount' => 'required'
+//  ]);
+//  Wallet::create($attributes);
+//  return redirect("/");
+//});
 
 Route::get('/', function () {
-  return view('components.home');
+//  return view('components.home');
+    return "Hello world";
 });
